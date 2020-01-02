@@ -1,0 +1,117 @@
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\bin\Debug\Online examination system.exe.config
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\bin\Debug\Online examination system.exe
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\bin\Debug\Online examination system.pdb
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\obj\Debug\Online examination system.csprojAssemblyReference.cache
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\obj\Debug\Online_examination_system.Properties.Resources.resources
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.GenerateResource.cache
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.CoreCompileInputs.cache
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\obj\Debug\Online examination system.exe
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\obj\Debug\Online examination system.pdb
+D:\vs项目文件\c#新\Online examination syatem\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.Admin.resources
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\bin\Debug\Online examination system.exe.config
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\bin\Debug\Online examination system.exe
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\bin\Debug\Online examination system.pdb
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online examination system.csprojAssemblyReference.cache
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.Admin.resources
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online_examination_system.Properties.Resources.resources
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.GenerateResource.cache
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.CoreCompileInputs.cache
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online examination system.exe
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online examination system.pdb
+D:\实训项目\Online examination system\Online examination system\bin\Debug\Online examination system.exe.config
+D:\实训项目\Online examination system\Online examination system\bin\Debug\Online examination system.exe
+D:\实训项目\Online examination system\Online examination system\bin\Debug\Online examination system.pdb
+D:\实训项目\Online examination system\Online examination system\obj\Debug\Online examination system.csprojAssemblyReference.cache
+D:\实训项目\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.Admin.resources
+D:\实训项目\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liuyingjie.Student_Frm.resources
+D:\实训项目\Online examination system\Online examination system\obj\Debug\Online_examination_system.Properties.Resources.resources
+D:\实训项目\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.GenerateResource.cache
+D:\实训项目\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.CoreCompileInputs.cache
+D:\实训项目\Online examination system\Online examination system\obj\Debug\Online examination system.exe
+D:\实训项目\Online examination system\Online examination system\obj\Debug\Online examination system.pdb
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liuyingjie.Student_Frm.resources
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\bin\Debug\Online examination system.exe.config
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\bin\Debug\Online examination system.exe
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\bin\Debug\Online examination system.pdb
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online examination system.csprojAssemblyReference.cache
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.Admin.resources
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.loadFrm.resources
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.LoginFrm.resources
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.RegisterFrm.resources
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liuyingjie.Student_Frm.resources
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online_examination_system.Properties.Resources.resources
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.GenerateResource.cache
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.CoreCompileInputs.cache
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online examination system.exe
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online examination system.pdb
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liaobingquan.FormTeacher.resources
+F:\大二上期实训项目\ProjectA\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.AddStudent.resources
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online examination system.csprojAssemblyReference.cache
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liaobingquan.FormTeacher.resources
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.AddStudent.resources
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.Admin.resources
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.loadFrm.resources
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.LoginFrm.resources
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.RegisterFrm.resources
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liuyingjie.Student_Frm.resources
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online_examination_system.Properties.Resources.resources
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.GenerateResource.cache
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.CoreCompileInputs.cache
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online examination system.exe
+E:\新建文件夹\Online examination system\Online examination system\obj\Debug\Online examination system.pdb
+E:\新建文件夹\Online examination system\Online examination system\bin\Debug\Online examination system.exe.config
+E:\新建文件夹\Online examination system\Online examination system\bin\Debug\Online examination system.exe
+E:\新建文件夹\Online examination system\Online examination system\bin\Debug\Online examination system.pdb
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online examination system.csprojAssemblyReference.cache
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liaobingquan.FormTeacher.resources
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.AddStudent.resources
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.Admin.resources
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.loadFrm.resources
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.LoginFrm.resources
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.RegisterFrm.resources
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liuyingjie.Student_Frm.resources
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online_examination_system.Properties.Resources.resources
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.GenerateResource.cache
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.CoreCompileInputs.cache
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online examination system.exe
+E:\实训 - 副本\Online examination system\Online examination system\obj\Debug\Online examination system.pdb
+E:\实训 - 副本\Online examination system\Online examination system\bin\Debug\Online examination system.exe.config
+E:\实训 - 副本\Online examination system\Online examination system\bin\Debug\Online examination system.exe
+E:\实训 - 副本\Online examination system\Online examination system\bin\Debug\Online examination system.pdb
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\bin\Debug\Online examination system.exe.config
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\bin\Debug\Online examination system.exe
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\bin\Debug\Online examination system.pdb
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online examination system.csprojAssemblyReference.cache
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liaobingquan.FormTeacher.resources
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.AddStudent.resources
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.Admin.resources
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.loadFrm.resources
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.LoginFrm.resources
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.RegisterFrm.resources
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liuyingjie.Student_Frm.resources
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online_examination_system.Properties.Resources.resources
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.GenerateResource.cache
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.CoreCompileInputs.cache
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online examination system.exe
+F:\大二上期实训项目\ProjectB\Online examination system\Online examination system\obj\Debug\Online examination system.pdb
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\bin\Debug\Online examination system.exe.config
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\bin\Debug\Online examination system.exe
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\bin\Debug\Online examination system.pdb
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online examination system.csprojAssemblyReference.cache
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liaobingquan.FormTeacher.resources
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.AddStudent.resources
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.Admin.resources
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.loadFrm.resources
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.LoginFrm.resources
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.RegisterFrm.resources
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liuyingjie.Student_Frm.resources
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online_examination_system.Properties.Resources.resources
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.GenerateResource.cache
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online examination system.csproj.CoreCompileInputs.cache
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online examination system.exe
+F:\大二上期实训项目\ProjectC\Online examination system\Online examination system\obj\Debug\Online examination system.pdb
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online_examination_system.Liaobingquan.FormTeacher.resources
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.loadFrm.resources
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.LoginFrm.resources
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lishushun.RegisterFrm.resources
+D:\vs项目文件\c#新\Online examination system云端1\Online examination system\Online examination system\obj\Debug\Online_examination_system.Lijianhua.AddStudent.resources

@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB307D9A-8882-4B20-AAD2-3720C866C4AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Online_examination_system</RootNamespace>
+    <AssemblyName>Online examination system</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls, Version=2.2.5.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math, Version=2.2.5.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AipSdk, Version=3.6.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AipSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBClass.cs" />
+    <Compile Include="Endexaminfo.cs" />
+    <Compile Include="Liaobingquan\CountImg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liaobingquan\CountImg.Designer.cs">
+      <DependentUpon>CountImg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Liaobingquan\DBset.cs" />
+    <Compile Include="Liaobingquan\FormTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liaobingquan\FormTeacher.designer.cs">
+      <DependentUpon>FormTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Liaobingquan\FrmCheckTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liaobingquan\FrmCheckTest.Designer.cs">
+      <DependentUpon>FrmCheckTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lijianhua\AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lijianhua\AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lijianhua\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lijianhua\Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lijianhua\Dal.cs" />
+    <Compile Include="Lijianhua\Modle.cs" />
+    <Compile Include="Lijianhua\staticModle.cs" />
+    <Compile Include="Lijianhua\static_SQL_CRUD.cs" />
+    <Compile Include="Lijianhua\UpdataExamAndQuestionsInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lijianhua\UpdataExamAndQuestionsInfo.Designer.cs">
+      <DependentUpon>UpdataExamAndQuestionsInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lishushun\DataAccess\Components.cs" />
+    <Compile Include="Lishushun\DataAccess\DataDefine\OESDataExamine.cs" />
+    <Compile Include="Lishushun\DataAccess\DataDefine\OESDataExamineSelect.cs" />
+    <Compile Include="Lishushun\DataAccess\DataDefine\OESDataUser.cs" />
+    <Compile Include="Lishushun\DataAccess\DBSet.cs" />
+    <Compile Include="Lishushun\DataAccess\Finpwd.cs" />
+    <Compile Include="Lishushun\DataAccess\OESDataOperationBase.cs" />
+    <Compile Include="Lishushun\DataAccess\OESDataOperationExamine.cs" />
+    <Compile Include="Lishushun\DataAccess\OESDataOperationUser.cs" />
+    <Compile Include="Lishushun\FindPwdFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lishushun\FindPwdFrm.Designer.cs">
+      <DependentUpon>FindPwdFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lishushun\frmFaceIdentify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lishushun\frmFaceIdentify.Designer.cs">
+      <DependentUpon>frmFaceIdentify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lishushun\frmFaceInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lishushun\frmFaceInput.Designer.cs">
+      <DependentUpon>frmFaceInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lishushun\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lishushun\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lishushun\loadFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lishushun\loadFrm.designer.cs">
+      <DependentUpon>loadFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lishushun\LoginFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lishushun\LoginFrm.designer.cs">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Liuyingjie\CCtrlEffect.cs" />
+    <Compile Include="Liuyingjie\StuDB.cs" />
+    <Compile Include="Liuyingjie\Student_Test_Questions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liuyingjie\Student_Test_Questions.Designer.cs">
+      <DependentUpon>Student_Test_Questions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="Pass.cs" />
+    <Compile Include="Lishushun\RegisterFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lishushun\RegisterFrm.designer.cs">
+      <DependentUpon>RegisterFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Liuyingjie\Student_Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liuyingjie\Student_Frm.Designer.cs">
+      <DependentUpon>Student_Frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teacher_list.cs" />
+    <Compile Include="TheQuestionBank.cs" />
+    <EmbeddedResource Include="Liaobingquan\CountImg.resx">
+      <DependentUpon>CountImg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liaobingquan\FormTeacher.resx">
+      <DependentUpon>FormTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liaobingquan\FrmCheckTest.resx">
+      <DependentUpon>FrmCheckTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lijianhua\AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lijianhua\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lijianhua\UpdataExamAndQuestionsInfo.resx">
+      <DependentUpon>UpdataExamAndQuestionsInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lishushun\FindPwdFrm.resx">
+      <DependentUpon>FindPwdFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lishushun\frmFaceIdentify.resx">
+      <DependentUpon>frmFaceIdentify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lishushun\frmFaceInput.resx">
+      <DependentUpon>frmFaceInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lishushun\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lishushun\loadFrm.resx">
+      <DependentUpon>loadFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lishushun\LoginFrm.resx">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lishushun\RegisterFrm.resx">
+      <DependentUpon>RegisterFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liuyingjie\Student_Frm.resx">
+      <DependentUpon>Student_Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liuyingjie\Student_Test_Questions.resx">
+      <DependentUpon>Student_Test_Questions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="publicImg\新建文件夹\.svn\tmp\" />
+    <Folder Include="publicImg\新建文件夹\Online examination system\.vs\Online examination system\v15\Server\sqlite3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Liaobingquan\img\51651.png" />
+    <Content Include="Lishushun\Source\1.jpg" />
+    <Content Include="Lishushun\Source\2.jpg" />
+    <Content Include="Lishushun\Source\3.jpg" />
+    <Content Include="Lishushun\Source\4.jpg" />
+    <Content Include="Lishushun\Source\5.jpg" />
+    <Content Include="Lishushun\Source\timg %281%29.gif" />
+    <Content Include="Lishushun\Source\timg.gif" />
+    <Content Include="Lishushun\Source\timg.jpg" />
+    <Content Include="Lishushun\Source\动图.jpg" />
+    <Content Include="Lishushun\Source\帽子.jpg" />
+    <Content Include="Lishushun\Source\帽子1.jpg" />
+    <Content Include="Lishushun\Source\格式.gif" />
+    <Content Include="Lishushun\Source\背景1.jpg" />
+    <Content Include="Lishushun\Source\花瓣.jpg" />
+    <Content Include="publicImg\app72图标.png" />
+    <Content Include="publicImg\closeEyes.png" />
+    <Content Include="publicImg\logo.png" />
+    <Content Include="publicImg\openEye.png" />
+    <Content Include="Resources\51651.png" />
+    <None Include="Resources\返回箭头.png" />
+    <None Include="Resources\result.png" />
+    <None Include="Resources\下载.jfif" />
+    <None Include="Resources\Student.png" />
+    <None Include="Resources\Teacher.png" />
+    <None Include="Resources\mine.png" />
+    <None Include="Resources\exam.png" />
+    <None Include="Resources\course.png" />
+    <None Include="Resources\Admin.png" />
+    <None Include="Resources\exam.jpg" />
+    <None Include="Resources\course.jpg" />
+    <None Include="Resources\Admin.jpg" />
+    <None Include="Resources\Teacher.jpg" />
+    <None Include="Resources\Student.jpg" />
+    <None Include="Resources\mine.jpg" />
+    <None Include="Resources\Screenshot_20191215_211044.jpg" />
+    <None Include="Resources\QQ图片20191209150027.png" />
+    <None Include="Resources\QQ图片20191209150209.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\QQ图片20191209154426.png" />
+    <None Include="Resources\QQ图片201912091545612.png" />
+    <Content Include="publicImg\teacher.png" />
+    <None Include="publicImg\新建文件夹\.svn\entries" />
+    <None Include="publicImg\新建文件夹\.svn\format" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\00\002d93b0a4a92287fb1380838d3c2c3c0db07641.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\05\0574441361465feea670b4e44e76e818b79efe76.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\07\072e219fc8d994e822f95c9cf0b5897c825dbf3e.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\09\092bc14c24caf4f82a047f7a53dce27c6745d497.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\09\098604e2fcb2cda5bcd2d33ea8e2c61f13e35603.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\0a\0a5238b7020853ff7d897e56fca0807f46a78506.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\0f\0ffbaf9dfb2d1e9b139cf3caf544564d34a802ba.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\15\1523d4938f20b69b33d5bd753c877333ea3090a3.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\18\18fcd65beb2a2691fae3f3ff9c50369575606302.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\1c\1c26648be2cc8a1286e10f2f10b05f3492178f28.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\1c\1cf8a57c6df6c309f373a2114a88b980a49d03e5.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\23\236b0c21920ffce65616a18630d61985cf547dc8.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\23\23e29292511cfac497e8a271c972b4020eea8115.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\28\2870dcecf849c72bce2dc7ee1cfc8f7cf10e6ee1.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\2a\2ac3be7fb08ea05caea63e1e0180161eecb2ee60.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\2d\2df95555a13d01f65053d08643c2db2e5aa53fc6.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\31\31fb76e5d9babe97a11fea041081f96ce426107a.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\32\32fbe2bf1f591af03be56a3829d51036535df9f2.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\33\3330e6f92e4aa190541792e9fd7c57339659732c.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\33\33e0e18f997dd11b155ee6a685484539551529d1.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\34\34981a20169e030493b999d940e662baf757cfd8.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\37\3707a02f4c78e75dd4bdc799b797352750f98512.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\3f\3fe97b9df5bfc376d4f0d33281fdabb28671af6a.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\4b\4b32f00b6593ebb4779078f22e98e7f5c100e380.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\4d\4d3170fe2a7d3fa1c5e62cb9994fcf4128119d20.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\4f\4fe890c7c99aad5787245733eabc062c6fe46664.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\52\52667627b204fff287461e4ab446b8f2337283c1.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\52\526de60c7b7dc744da0c15543600aa6d848d70cf.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\54\54a053d37c7f56df161b254b545082cd8072450b.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\59\59911bc030805bfc357943d95e0b406f43a3a360.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\5e\5e1d04de66ffcc5dfd813530ab6992e6daaae417.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\6b\6b19741f70fadcbecceb2f8c9e632fae93735bf1.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\72\7244bfb8fc5ffff8a8788a2a1503b63dd3702e50.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\72\72a0c1dbd5449dd10a3fe9439333860b9f4dae86.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\73\737bf166f1bd98fec1815e417639316001e29d51.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\75\75205a7fb8ea3e15fd2af4ee27ffdd57cd56b7d4.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\7f\7f23a10e871f3430e3f6bb18cd8ab4b3f33e3a3e.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\89\8964e1a677b525079692990fcfe94961bd025602.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\8c\8c3569963f291b05b090bb9d3b7528940a7a40ef.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\99\9923486e1349b34475633346198a5c3e4d523fbc.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\9a\9a88fd5abfaa760fcb7e5b07ab2faa3678604a1f.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\9d\9de9b05d5bfa8f10a87bc441bdbf9a6d27070c5b.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\a0\a02678b55a5fe57b624c79869b424a3c8782f7be.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\a1\a15f54da5a5f539fd800fe539a63000a5992b61a.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\a2\a284041b9f771daba34e3aea9748b33c7f18b0ec.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\a6\a60d8aab7d7e3cdd6303d7fb79513e8e8f643c3c.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\a6\a6d044efdfb7c6a84502c0acb005d96e8b0a60ae.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\a7\a7cbe0e55adf39d3993296a54667529f1809057e.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\ac\ace1bcb0889bbab66e28d5aec7221507b5562d5f.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\ae\aef8caad433c4623f86fb61d823baed3faca6416.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\b4\b417bf7dcc3b6dc3ae09746d2e7c2f24af4fafcc.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\b7\b71323d8bef916ca58fc6ffc7390d15ab4f528b4.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\bb\bb0a094520f09746c91546cbe9ef76db5d38e530.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\bb\bbb803635b31c6dd07e3c973aa9ce2742984a7b2.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\bc\bc10f57c2121452634ce5fdb601ee30bf27134ac.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\bf\bf142da1dc126871903fd4f61d7198c858434164.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\d0\d03bacebb1238034ddc745d075453ad57c854a17.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\da\da39a3ee5e6b4b0d3255bfef95601890afd80709.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\db\dbaaabad40e6e7cf82fcb18d44ee673a6aecc340.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\db\dbb79a14ea4ff9e47d2157133c5e7bfed63dfd15.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\db\dbbbbe2694d4b9b990881f279b4313574dbeac9b.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\e4\e445e05b34e41ede247ae1c8c22bc9404ab4ed10.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\e4\e47a406630b5aa71546731c64cf239e3b2f865d2.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\e7\e70cf4f7e42807a871bf318b6b618b90fe6f1e71.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\e7\e7922e2b1f0095d7632a0ba5b8100ed6ec0a18d6.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\f3\f3969ad2f403a96385c1d092811a4b352a36cd35.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\f8\f8d481655d966aaed11cc0beae23a51d787d4696.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\fc\fc50d157acf41b3bb619ac0870b22bbc954d03c5.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\pristine\fe\fe1bae45caf0291e9c09bee3a922a28de42c621e.svn-base" />
+    <None Include="publicImg\新建文件夹\.svn\wc.db" />
+    <None Include="publicImg\新建文件夹\.svn\wc.db-journal" />
+    <None Include="publicImg\新建文件夹\Online examination system\.vs\Online examination system\v15\.suo" />
+    <None Include="Resources\图层 2.png" />
+    <None Include="Resources\openEye.png" />
+    <None Include="publicImg\bgImg2.jpg" />
+    <None Include="publicImg\bgImg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="ConnectedServices\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
